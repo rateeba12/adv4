@@ -1,0 +1,50 @@
+package adv;
+
+import java.awt.*;
+import java.util.*;
+
+public class Hash_Map{
+    public HashMap<Color,String> colorHashMap = new HashMap<>();
+
+
+    public void z ()
+    {
+        colorHashMap.put(Color.MAGENTA,"MAGENTA");
+
+        colorHashMap.put(Color.YELLOW,"YELLOW");
+
+        colorHashMap.put(Color.CYAN,"CYAN");
+
+        colorHashMap.put(Color.DARK_GRAY,"DARK_GRAY");
+
+        colorHashMap.put(Color.ORANGE,"ORANGE");
+
+        colorHashMap.put(Color.GRAY,"GRAY");
+
+        colorHashMap.put(Color.WHITE,"WHITE");
+
+        colorHashMap.put(Color.BLUE,"BLUE");
+
+        colorHashMap.put(Color.GREEN,"GREEN");
+
+        colorHashMap.put(Color.RED,"RED");
+
+        colorHashMap.put(Color.PINK,"PINK");
+
+        colorHashMap.put(Color.LIGHT_GRAY,"LIGHT_GRAY");
+
+        colorHashMap.put(Color.BLACK,"BLACK");
+
+    }
+
+    public void isKey(Color color1){
+        System.out.println(colorHashMap.containsKey(color1));
+    }
+
+
+ 
+
+
+    }
+
+
