@@ -18,7 +18,6 @@ public class Main {
             int B = myObj.nextInt();  // Read user input
             Color c = new Color(R, G, B);
 
-            //System.out.println(c.getRGB());
             System.out.println(c);
 
             Hash_Map cc = new Hash_Map();
@@ -33,7 +32,6 @@ public class Main {
             i = mObj.nextInt();
 
         }
-        //  Color clickBoxColor = new Color(color.getRed(), color.getGreen(), color.getBlue(), 20);
 
 
 
